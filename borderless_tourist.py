@@ -53,7 +53,7 @@ def find_attractions(destination, interests):
 
     for interest in interests:
         if interest in attraction_tags:
-          # 49. only appending the first element of possible_attraction    because we dont wont the user to see the tags hence: possible_attraction[0].
+          # 49. only appending the first element of possible_attraction because we dont want the user to see the tags hence: possible_attraction[0].
           attractions_with_interests.append(possible_attraction[0])
   return attractions_with_interests
 
